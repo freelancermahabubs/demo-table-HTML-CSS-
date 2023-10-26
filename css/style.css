@@ -2,6 +2,17 @@ body {
   width: 100%;
   margin: auto;
 }
+
+/* Style for the fixed table header */
+.fixed-header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+/* Style for the scrollable table body */
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
