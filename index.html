@@ -15,7 +15,8 @@
     <!-- Add scripts for Excel and PDF -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
     <!-- Add script for jsPDF -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.4.4/jspdf.plugin.autotable.min.js"></script>
+
   </head>
   <body>
     <div class="flex1">
@@ -40,7 +41,7 @@
       
     </div>
   
-      <table>
+      <table id="myTable">
         <thead class="fixed-header">
           <tr>
             <th>Company</th>
@@ -85,7 +86,6 @@
 
     <script src="index.js">
    
-      
     </script>
   </body>
 </html>
